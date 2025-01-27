@@ -1,0 +1,48 @@
+.clock {
+    width: 75px;
+    height: 75px;
+    border-radius: 15%;
+    border: 1px solid #ffffff;
+    background: linear-gradient(145deg, #1a1a1a, #000000); /* Fundo com leve gradiente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+    position: absolute;
+    left: 260px;
+    top: 0px;
+    transform: translate(0, 0);
+    text-align: center;
+    box-shadow: 
+        0 0 10px rgba(255, 255, 255, 0.5), /* Brilho externo */
+        inset 0 0 8px rgba(255, 255, 255, 0.2), /* Brilho interno */
+        inset 0 0 10px rgba(0, 0, 0, 0.8); /* Sombra interna mais escura */
+    padding: 5px; /* Espaçamento interno */
+}
+
+/* Data */
+#date {
+    font-size: 8px;
+    font-weight: bold;
+    color: #ffffff; /* Destaque para a data */
+    margin-bottom: 2px;
+}
+
+/* Hora */
+#time {
+    font-size: 12px;
+    font-weight: bold;
+    color: #8bffe8; /* Cor vibrante para a hora */
+    margin-bottom: 2px;
+}
+
+/* Localização */
+#location {
+    font-size: 7px;
+    color: #ffcc00;
+    font-style: italic; /* Estilo para destacar a localização */
+    opacity: 0.8; /* Transparência leve */
+}
